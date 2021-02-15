@@ -10,6 +10,9 @@ namespace MVCInitial.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Message = "I want some pizza";
+            ViewData["Another_Message"] = "I want some souvlaki";
+
             return View();
         }
 
